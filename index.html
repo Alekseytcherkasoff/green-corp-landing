@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Солнечные батареи GreenCorp</title>
+    <link rel="stylesheet" href="fa/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="header__logo" src="img/logo.svg">
+        <div class="header__controls">
+            <a href="#contacts">Контакты</a>
+            <button>Заказать</button>
+        </div>
+    </header>
+    <section class="about">
+        <canvas class="orb-canvas" id="orb-canvas"></canvas>
+        <main class="animate__animated animate__fadeInLeft">
+        <div class="about__info" class="animate__animated animate__fadeInLeft">
+            <h1>Солнечные панели GreenRobotic</h1>
+            <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
+            <button>
+                Узнать подробнее <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+        </main>
+        <main class="animate__animated animate__fadeInRight">
+        <div class="about__images" class="animate__animated animate__fadeInRight">
+            <img class="about__sun-image" src="img/sun.png">
+            <img class="about__image" src="img/solar-panel.png">
+        </div>
+        </main>
+    </section>
+    <section class="features" id="features">
+        <div class="cards">
+            <div class="card__logo1">
+                <i class="fa-solid fa-calculator"></i>
+            </div>
+            <h3>Уменьшите счета за электричество</h3>
+            <p>Используйте чистую солнечную энергию для питания своего дома: уменьшите зависимость от электросети и счета за электричество</p>
+        </div>
+        <div class="cards">
+            <div class="card__logo2">
+                24/7
+            </div>
+            <h3>Мониторинг электроэнергии</h3>
+            <p>Управляйте своей системой солнечных панелей из любой точки мира с помощью специального мобильного приложения</p>
+        </div>
+        <div class="cards">
+            <div class="card__logo3">
+                <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <h3>Максимальная эффективность</h3>
+            <p> Солнечные панели GreenRobotic обеспечивают максимальное производство энергии круглый год, даже на крышах со сложными углами</p>
+        </div>
+    </section>
+    <section class="form">
+        <div class="form__container">
+            <h1>Оставьте свои контакты</h1>
+            <p> Поможем подобрать модель.<br>
+                Выбрать удобный вариант доставки и установки.<br>
+                Гарантия возврата денег.
+            </p>
+            <form>
+                <form class="form form">
+                <div class="form__group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" placeholder="Введите имя" id="name">
+                </div>
+                <div class="form__group">
+                    <label for="email">Электронный адрес</label>
+                    <input type="email" placeholder="***@yandex.ru" id="email">
+                </div>
+                <div class="form__group">
+                    <label for="form__group">Номер телефона</label>
+                    <input type="phone" placeholder="7 (999) 999-99-99" id="phone">
+                </div>
+                <div class="form__group">
+                <label for="budget">Примерный бюджет</label>
+                <select id="budget">
+                    <option>Выберите вариант</option>
+                    <option value="10-30">10 000-30 000</option>
+                    <option value="30-60">30 000-60 000</option>
+                    <option value="60-100">60 000-100 000</option>
+                    <option value="100+">100 000</option>
+                </select>
+                </div>
+                <button type="submit" class="form__group">
+                    Отправить заявку
+                </button>
+                </form>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__group">
+                <h3>Позвонить нам:</h3>
+                <div class="footer__links">
+                    <a href="tel:74959999999">+7 (495) 999-99-99</a>
+                </div>
+            </div>
+            <div class="footer__group">
+                <h3>Решения для дома:</h3>
+                <div class="footer__links">
+                    <a href="#">Солнечные панели GreenRobotic<br> Системы солнечных панелей GreenStation</a>
+                </div>
+            </div>
+            <div class="footer__group">
+                <h3>Компания</h3>
+                <div class="footer__links">
+                    <a href="#">Контакты<br> Вакансии<br> СМИ</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">GreenCorp © 2023</div>
+    </footer>
+    <script src="fa/js/all.min.js"><i class="fa-solid fa-angle-right"></i></script>
+    <!--<script src="js/canvas.js"></script>-->
+</body>
+</html>
+
+
